@@ -5,13 +5,18 @@ import Typewriter from 'typewriter-effect'
 const HeroSection = styled.div`
 width: 100%;
 height: 90vh;
-background: black;
+
 `
 
 const Container = styled.div`
 margin-top: 9rem;
 font-size:calc(7rem + 5vw);
-color: white;
+
+font-family: courier-std, monospace;
+
+font-weight: 500;
+
+font-style: normal;
 
 
 `
