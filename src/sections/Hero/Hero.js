@@ -4,19 +4,12 @@ import Typewriter from 'typewriter-effect'
 
 const HeroSection = styled.div`
 width: 100%;
-height: 90vh;
+height: 85vw;
 
 `
 
-const Container = styled.div`
-margin-top: 9rem;
-font-size:calc(7rem + 5vw);
+const Container = styled.h1`
 
-font-family: courier-std, monospace;
-
-font-weight: 500;
-
-font-style: normal;
 
 
 `
@@ -25,7 +18,7 @@ font-style: normal;
 const Hero = () =>{
     return(
         <HeroSection>
-            <Container>
+        
                
             <Typewriter
   options={{
@@ -35,7 +28,7 @@ const Hero = () =>{
   }}
 />
 
-            </Container>
+          
         </HeroSection>
     )
 }
